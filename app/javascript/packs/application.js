@@ -26,5 +26,5 @@ document.addEventListener('turbolinks:load', () => {
   if (document.getElementById("banner-typed-text")) {
   loadDynamicBannerText();
     }
-  price()
 });
+
