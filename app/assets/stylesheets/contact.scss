@@ -1,9 +1,62 @@
-.blink_me {
-  animation: blinker 1s linear infinite;
+
+
+.stars {
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  width:2000px;
+  height:100%;
+  display:block;
+}
+
+.stars1 {
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  width: 1500px;
+  height:100%;
+  display:block;
+}
+
+.stars2 {
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  width: 1700px;
+  height:100%;
+  display:block;
+}
+
+.stars {
+  background: url(http://www.script-tutorials.com/demos/360/images/stars.png) repeat top center;
+  z-index:0;
+  animation: blinker 4s linear infinite;
+}
+
+.stars1 {
+  background: url(http://www.script-tutorials.com/demos/360/images/stars.png) repeat top center;
+  z-index:0;
+  animation: blinker 5s linear infinite;
+}
+.stars2 {
+  background: url(http://www.script-tutorials.com/demos/360/images/stars.png) repeat top center;
+  z-index:0;
+  animation: blinker 6s linear infinite;
 }
 
 @keyframes blinker {
-  50% {
+  40% {
     opacity: 0;
   }
+}
+
+h1 {
+  z-index: 1000000;
+  position: relative;
 }
