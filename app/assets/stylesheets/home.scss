@@ -2,5 +2,14 @@
   font-family: 'Playfair Display SC', serif;
 }
 
+.style-online {
+  animation: blinkers 6s linear infinite;
+}
+
+@keyframes blinkers {
+  40% {
+    opacity: 0.5;
+  }
+}
 
 
