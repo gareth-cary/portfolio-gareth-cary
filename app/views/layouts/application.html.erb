@@ -4,7 +4,8 @@
     <title>PortfolioGarethCary</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -14,8 +15,9 @@
   </head>
 
   <body>
+
     <div class="header">
-      <p class="logo">Key Skills - <span id="banner-typed-text"></span></p>
+      <p class="logo" style="font-family: 'Playfair Display SC', serif;">Key Skills - <span id="banner-typed-text"></span></p>
       <div class="header-right">
          <%= link_to "Home", root_path, class: "active" %>
           <%= link_to "Contact", contact_path %>
@@ -27,7 +29,7 @@
 
   <div class="bottom-page">
     <a href="https://github.com/gareth-cary"><i class="fab fa-github " style="font-size: 40px;"></i></a>
-    <a href=" https://www.linkedin.com/in/gareth-cary/"><i class="fab fa-linkedin" style="font-size: 40px;"></i></a>
+    <a href="https://www.linkedin.com/in/gareth-cary/"><i class="fab fa-linkedin" style="font-size: 40px;"></i></a>
   </div>
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
