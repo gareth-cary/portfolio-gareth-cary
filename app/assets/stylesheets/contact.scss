@@ -1,5 +1,6 @@
 .item-in-contact-form {
     width: 470px;
+    box-shadow: 0 0 20px 3px white;
     border-radius: 20px;
     padding: 30px 30px;
     text-align: center;
@@ -18,12 +19,12 @@
     justify-content: center;
     margin-top: 30px;
     position: relative;
-    top: 108px;
+    top: 92px;
 }
 
 .email-link {
   color: white;
-      border: 2px solid white;
+
       border-radius: 30px;
       padding: 5px 20px;
 }
