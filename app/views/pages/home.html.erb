@@ -4,53 +4,72 @@
 
 <div class="background-home">
   <div class="title">
-    <h1>Full Stack Web Developer</h1>
-    <h2>Gareth Cary</h2>
+    <h1>Full Stack Web Developer - Gareth Cary</h1>
     <p class="style-online"><em>Online Portfolio</em></p>
-  </div>
-</div>
-
-<div class="row">
-  <div class="col-lg-12">
-    <h2 class="style-online"style="color: white; text-align: center; font-family: 'Playfair Display SC', serif;">Portfolio and Website Links:</h2>
-  </div>
-</div>
-
-    <div class="container">
-      <div class="row" >
-        <div class="col-lg-6 col-md-6 center-style">
-            <div class="card-design">
-              <div class="card-position">
-                <h2 style="font-size: 25px; font-family: 'Playfair Display SC', serif;">Junto Book Club</h2>
-                <p style="font-family: 'Playfair Display SC', serif;"><em>Book Swapping website that allows you to swap books in a few simple steps</em></p>
-                <br>
-                <br>
-                <br>
-                <br>
-              <div class="link">
-                <a href="https://www.juntobookclub.com/" target="_blank" class="link-hover">LINK</a>
-              </div>
-             </div>
-         </div>
-        </div>
-
-    <div class="col-lg-6 col-md-6 center-style">
-      <div class="card-design1">
-        <div class="card-position1">
-          <h2 style="font-size: 25px; font-family: 'Playfair Display SC', serif;">PerformerNow</h2>
-          <p style="font-family: 'Playfair Display SC', serif;"><em>Find the right performer for your event at just the click of a button.</em></p>
-          <br>
-          <br>
-          <br>
-          <br>
-          <div class="link1">
-            <a href="https://performernow.herokuapp.com/" target="_blank" class="link-hover1">LINK</a>
-          </div>
-         </div>
-       </div>
-      </div>
+    <div class="key-javascript">
+      <h2>Key Programing Skills:</h2>
+      <p><span id="banner-typed-text"></span></p>
     </div>
   </div>
+</div>
+
+<div class="all-cards">
+  <%= link_to "https://www.juntobookclub.com/" do %>
+  <div class="card-trip">
+    <h2 class="title-home-card" style="font-size: 30px;">Junto Book Club</h2>
+    <%= image_tag "https://images.unsplash.com/photo-1526721940322-10fb6e3ae94a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80" %>
+  <div class="card-trip-infos">
+    <div>
+      <h2>https://www.juntobookclub.com/</h2>
+      <p>Book Swapping Website</p>
+    </div>
+
+    </div>
+  </div>
+  <% end %>
+
+
+  <%= link_to "https://performernow.herokuapp.com/" do %>
+  <div class="card-trip">
+    <h2 class="title-home-card" style="font-size: 30px;">PerformerNow</h2>
+    <%= image_tag "https://images.unsplash.com/photo-1547423753-bff7561e2956?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" %>
+  <div class="card-trip-infos">
+    <div>
+      <h2>https://performernow.herokuapp.com/</h2>
+      <p>Find the right Artist for your event</p>
+    </div>
+
+    </div>
+  </div>
+  <% end %>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

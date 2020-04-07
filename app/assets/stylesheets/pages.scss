@@ -7,25 +7,28 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  padding-bottom: 200px;
+  min-height: 100vh;
+  min-width: 100%;
+
+  /* Set up proportionate scaling */
   width: 100%;
+  height: auto;
+
+  /* Set up positioning */
 
 }
 
 .background-home {
-
-  margin-top: 10px;
+  margin-top: 50px;
   padding-top: 30px;
   padding-bottom: 30px;
-
-
 }
 
 .title {
   text-align: center;
   color: white;
 
-  font-family: 'Playfair Display SC', serif;
+  font-family: 'Noto Sans JP', sans-serif;
 
   h1 {
     font-size: 50px;
