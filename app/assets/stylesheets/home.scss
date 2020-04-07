@@ -3,12 +3,12 @@
 }
 
 .style-online {
-  animation: blinkers 4s linear infinite;
+  animation: blinkers 2s linear infinite;
 }
 
 @keyframes blinkers {
-  40% {
-    opacity: 0.7;
+  80% {
+    opacity: 0.8;
   }
 }
 
@@ -20,5 +20,11 @@ img {
 }
 }
 
-
+.style-online {
+  position: relative;
+      bottom: -73px;
+      p {
+        font-size: 20px;
+      }
+}
 
