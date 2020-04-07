@@ -4,23 +4,20 @@
   background: white;
   box-shadow: 0 0 22px 1px white;
   width: 400px;
-margin-left: 20px;
-margin-right: 20px;
+  margin-bottom: 20px;
+  text-decoration: none;
+  flex: 1;
 }
 
 .card-trip:hover {
-  transform: scale(1.03);
-  transition: 0.5s;
-  text-decoration: none;
-  opacity: 0.9;
+  text-decoration: none !important;
 }
-
 
 .card-trip > img {
   height: 200px;
   width: 100%;
   object-fit: cover;
-  z-index: 1000000000000000;
+  z-index: 100;
 }
 
 .card-trip h2 {
@@ -54,27 +51,34 @@ margin-right: 20px;
 }
 
 .title-home-card {
-    position: fixed;
+    position: relative;
+    top: 59px;
     padding-top: 13px;
     padding-left: 15px;
     color: white;
+    z-index: 10000;
 
 }
 
-.all-cards {
+.align-items-card {
   display: flex;
     justify-content: center;
 }
 
+.align-items-card:hover {
+  transform: scale(1.03);
+  transition: 0.5s;
+  text-decoration: none !important;
+}
 
 
+h2:hover {
+  text-decoration: white;
+  }
 
-
-
-
-
-
-
+.col-lg-6:hover {
+  text-decoration: none;
+}
 
 
 
