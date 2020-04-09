@@ -7,6 +7,7 @@
   margin-bottom: 20px;
   text-decoration: none;
   flex: 1;
+  font-family: 'Marmelad', sans-serif;
 }
 
 .card-trip:hover {
@@ -61,33 +62,32 @@
 }
 
 .align-items-card {
-  display: flex;
-    justify-content: center;
+  // display: flex;
+  //   justify-content: center;
 }
 
-.align-items-card:hover {
+
+
+
+
+.link-blue-line:hover {
   transform: scale(1.03);
   transition: 0.5s;
   text-decoration: none !important;
 }
 
-
-h2:hover {
-  text-decoration: white;
-  }
-
-.col-lg-6:hover {
-  text-decoration: none;
+.whole-card {
+  display: flex;
+  justify-content: center;
 }
 
-
-.link-blue-line:hover {
-  text-decoration: none;
+.card-info-bottom {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 20px 20px;
+  width: 400px;
+  margin: auto;
+  border-bottom: 2px solid white;
 }
-
-
-
-
 
 
 

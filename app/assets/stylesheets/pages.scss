@@ -5,11 +5,11 @@
 body {
   background-image:  linear-gradient( rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1) ), url(https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1052&q=80);
   background-size: cover;
-
   background-position: center;
   background-repeat: no-repeat;
   min-height: 100vh;
   min-width: 100%;
+  font-family: 'Milonga', cursive;
 
   /* Set up proportionate scaling */
   width: 100%;
@@ -25,19 +25,18 @@ body {
 .title {
   text-align: center;
   color: white;
-
-  font-family: 'Noto Sans JP', sans-serif;
+  font-family: 'Marmelad', sans-serif;
 
   h1 {
-    font-size: 50px;
+    font-size: 55px;
     letter-spacing: 5px;
   }
   h2 {
-    font-size: 35px;
+    font-size: 40px;
     letter-spacing: 2px
   }
   p {
-    font-size: 30px;
+    font-size: 40px;
     letter-spacing: 1px;
   }
 }
