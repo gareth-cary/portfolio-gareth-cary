@@ -1,5 +1,5 @@
 .button {
-  font-size: 2.5vw;
+  font-size: 20px;
   min-width: 400px;
   text-decoration: none;
   color: black;
@@ -17,4 +17,21 @@
   box-shadow: 0 0 20px 3px white;
   transition: 0.7s;
   background-color: grey;
+}
+
+
+@media (min-width: 800px) {
+  .button {
+  font-size: 30px;
+  min-width: 400px;
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  box-shadow: 0 0 20px 3px white;
+  text-align: center;
+  padding: 13px 24px;
+  position: relative;
+  font-family: 'Marmelad', sans-serif;
+}
+
 }
