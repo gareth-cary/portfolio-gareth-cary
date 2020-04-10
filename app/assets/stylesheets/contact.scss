@@ -37,7 +37,7 @@
 }
 
 
-@media (min-width: 800px) {
+@media (min-width: 500px) {
   .whole-content-contact {
     display: flex;
     justify-content: center;
@@ -45,10 +45,7 @@
     position: relative;
     top: 92px;
 }
-}
-
-  @media (min-width: 800px) {
-    .item-in-contact-form {
+  .item-in-contact-form {
     width: 400px;
     box-shadow: 0 0 20px 3px white;
     border-radius: 2px;
@@ -61,17 +58,16 @@
     }
     h3 {
       font-family: 'Marmelad', sans-serif;
-    }
-}
+   }
   }
 
-  @media (min-width: 800px) {
-    .email-link {
-  color: white;
-  padding: 5px 20px;
-  font-size: 16px;
-}
+  .email-link {
+    color: white;
+    padding: 5px 20px;
+    font-size: 16px;
+
   }
+}
 
 
 

@@ -2,25 +2,92 @@
   font-family: 'Noto Sans JP', sans-serif;
 }
 
-.style-online {
-  animation: blinkers 2s linear infinite;
-}
-
-@keyframes blinkers {
-  80% {
-    opacity: 0.8;
-  }
-}
-
 .programs {
   text-align: center;
   margin-bottom: 20px;
-img {
-  width: 70%;
-}
+  img {
+    width: 70%;
+  }
 }
 
 .typed-text-design {
   font-size: 2px;
 }
 
+.background-home {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+@media (min-width: 1026px) {
+  .title {
+    text-align: center;
+    color: white;
+    font-family: 'Marmelad', sans-serif;
+    margin-left: 55px;
+    margin-right: 55px;
+    margin-top: 140px;
+  h1 {
+    font-size: 60px;
+    letter-spacing: 5px;
+    margin-bottom: 29px;
+}
+  h2 {
+    font-size: 45px;
+    letter-spacing: 2px
+  }
+  p {
+    font-size: 32px;
+    letter-spacing: 1px;
+  }
+ }
+}
+
+@media (max-width: 1025px) {
+  .title {
+    color: white;
+    text-align: center;
+    font-family: 'Marmelad', sans-serif;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 27vh;
+    h1 {
+      font-size: 50px;
+      letter-spacing: 5px;
+      margin-bottom: 40px;
+  }
+    h2 {
+      font-size: 44px;
+      letter-spacing: 2px
+    }
+    p {
+      font-size: 33px;
+      letter-spacing: 1px;
+    }
+  }
+}
+
+
+@media (max-width: 420px) {
+  .title {
+    color: white;
+    text-align: center;
+    font-family: 'Marmelad', sans-serif;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 14vh;
+    h1 {
+      font-size: 31px;
+      letter-spacing: 5px;
+      margin-bottom: 40px;
+  }
+    h2 {
+      font-size: 22px;
+      letter-spacing: 2px
+    }
+    p {
+      font-size: 20px;
+      letter-spacing: 1px;
+    }
+  }
+}
