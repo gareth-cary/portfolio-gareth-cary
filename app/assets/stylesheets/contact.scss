@@ -1,5 +1,55 @@
 .item-in-contact-form {
-    width: 100%;
+    width: 300px;
+    box-shadow: 0 0 20px 3px white;
+    border-radius: 2px;
+    padding: 30px 30px;
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    h2 {
+      font-family: 'Marmelad', sans-serif;
+      font-size: 22px;
+    }
+    h3 {
+      font-family: 'Marmelad', sans-serif;
+      font-size: 22px
+    }
+}
+
+.whole-content-contact {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 32px;
+}
+
+.email-link {
+  color: white;
+  padding: 5px 20px;
+  font-size: 12px;
+}
+
+.email-link:hover {
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  transition: 0.5s;
+}
+
+
+@media (min-width: 800px) {
+  .whole-content-contact {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    position: relative;
+    top: 92px;
+}
+}
+
+  @media (min-width: 800px) {
+    .item-in-contact-form {
+    width: 400px;
     box-shadow: 0 0 20px 3px white;
     border-radius: 2px;
     padding: 30px 30px;
@@ -13,23 +63,19 @@
       font-family: 'Marmelad', sans-serif;
     }
 }
+  }
 
-.whole-content-contact {
-    display: flex;
-    justify-content: center;
-    margin-top: 40px;
-    position: relative;
-    top: 92px;
-}
-
-.email-link {
+  @media (min-width: 800px) {
+    .email-link {
   color: white;
   padding: 5px 20px;
+  font-size: 16px;
 }
+  }
 
-.email-link:hover {
-  text-decoration: none;
-  color: black;
-  background-color: white;
-  transition: 0.5s;
-}
+
+
+
+
+
+
