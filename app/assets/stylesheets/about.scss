@@ -12,22 +12,63 @@
   z-index: 10000;
   margin-left: 10px;
   margin-right: 10px;
-
 }
 
 .background-stuff {
-
   margin-bottom: 15px;
-
 }
 
 .image-programs {
-      text-align: center;
-    width: 100%;
+  text-align: center;
+  width: 100%;
 }
 
 
 .border-line-about {
-
   padding-bottom: 10px;
+}
+
+.about-title {
+ h1 {
+  font-size: 30px;
+ }
+}
+
+
+@media (min-width: 500px) {
+  .gareth-cary-image {
+    width: 100%;
+    min-width: 300px;
+    box-shadow: 0 0 20px 3px white;
+    margin-bottom: 20px;
+}
+
+
+.position-info-title {
+  color: white;
+  font-family: 'Marmelad', sans-serif;
+  z-index: 10000;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.background-stuff {
+  margin-bottom: 15px;
+}
+
+.image-programs {
+  text-align: center;
+  width: 100%;
+}
+
+
+.border-line-about {
+  padding-bottom: 10px;
+}
+
+.about-title {
+ h1 {
+  font-size: 60px;
+ }
+}
 }
