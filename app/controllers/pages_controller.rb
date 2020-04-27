@@ -10,5 +10,10 @@ class PagesController < ApplicationController
   end
 
   def portfolio
+    @websites = Website.all
+  end
+
+  def new
+    @website = Website.new
   end
 end

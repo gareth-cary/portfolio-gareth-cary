@@ -1,167 +1,82 @@
-
-
-.card-trip {
-  overflow: hidden;
-  background: white;
-  box-shadow: 0 0 22px 1px white;
-  width: 320px;
-  margin-bottom: 20px;
-  text-decoration: none;
-  flex: 1;
-  font-family: 'Marmelad', sans-serif;
+@media (min-width: 1350px) {
+  .all-cards-list {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
 }
 
-.card-trip:hover {
-  text-decoration: none !important;
-}
-
-.card-trip > img {
-  height: 200px;
-  width: 100%;
-  object-fit: cover;
-  z-index: 100;
-}
-
-.card-trip h2 {
-  font-size: 14px;
-  font-weight: bold;
-  margin: 0;
-}
-
-.card-trip p {
-  font-size: 13px;
-  opacity: .7;
-  margin: 0;
-}
-
-
-.card-trip .card-trip-infos {
-  padding: 16px;
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-  position: relative;
-  color: white;
-  background-color: black;
-}
-
-.card-trip-infos .card-trip-user {
-  position: absolute;
-  right: 16px;
-  top: -20px;
-  width: 40px;
-}
-
-.title-home-card {
-    position: relative;
-    top: 59px;
-    padding-top: 13px;
-    padding-left: 15px;
-    color: white;
-    z-index: 10000;
-}
-
-.link-blue-line:hover {
-  transform: scale(1.03);
-  transition: 0.5s;
-  text-decoration: none !important;
-}
-
-.whole-card {
-  display: flex;
-  justify-content: center;
-}
-
-.card-info-bottom {
-  background-color: rgba(0, 0, 0, 0.7);
-  padding: 20px 20px;
-  width: 320px;
-  margin: auto;
-  border-bottom: 2px solid white;
-}
-
-
-@media (min-width: 800px) {
   .card-trip {
-  overflow: hidden;
-  background: white;
-  box-shadow: 0 0 22px 1px white;
-  width: 400px;
-  margin-bottom: 20px;
-  text-decoration: none;
-  flex: 1;
-  font-family: 'Marmelad', sans-serif;
-}
+    overflow: hidden;
+    background: white;
+    box-shadow: 0 0 22px 1px white;
+    width: 320px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    flex: 1;
+    font-family: 'Marmelad', sans-serif;
+  }
 
-.card-trip:hover {
-  text-decoration: none !important;
-}
+  .card-trip:hover {
+    transform: scale(1.03);
+    transition: 0.5s;
+    text-decoration: none !important;
+  }
 
-.card-trip > img {
-  height: 200px;
-  width: 100%;
-  object-fit: cover;
-  z-index: 100;
-}
+  .card-trip > img {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    z-index: 100;
+  }
 
-.card-trip h2 {
-  font-size: 16px;
-  font-weight: bold;
-  margin: 0;
-}
+  .card-trip h2 {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0;
+  }
 
-.card-trip p {
-  font-size: 15px;
-  opacity: .7;
-  margin: 0;
-}
+  .card-trip p {
+    font-size: 13px;
+    opacity: .7;
+    margin: 0;
+  }
 
 
-.card-trip .card-trip-infos {
-  padding: 16px;
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-  position: relative;
-  color: white;
-  background-color: black;
-}
-
-.card-trip-infos .card-trip-user {
-  position: absolute;
-  right: 16px;
-  top: -20px;
-  width: 40px;
-}
-
-.title-home-card {
+  .card-trip .card-trip-infos {
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
     position: relative;
-    top: 59px;
-    padding-top: 13px;
-    padding-left: 15px;
     color: white;
-    z-index: 10000;
-}
+    background-color: black;
+  }
 
-.link-blue-line:hover {
-  transform: scale(1.03);
-  transition: 0.5s;
-  text-decoration: none !important;
-}
+  .card-trip-infos .card-trip-user {
+    position: absolute;
+    right: 16px;
+    top: -20px;
+    width: 40px;
+  }
 
-.whole-card {
-  display: flex;
-  justify-content: center;
-}
 
-.card-info-bottom {
-  background-color: rgba(0, 0, 0, 0.7);
-  padding: 20px 20px;
-  width: 400px;
-  margin: auto;
-  border-bottom: 2px solid white;
-}
-}
+  .link-blue-line:hover {
+    transform: scale(1.03);
+    transition: 0.5s;
+    text-decoration: none !important;
+  }
+
+  .all-cards-list {
+    display: grid;
+    justify-content: space-evenly;
+    margin-right: 10%;
+    margin-left: 10%;
+    z-index: 2000000000;
+    position: relative;
+  }
+
+
+
+
 
 
 
