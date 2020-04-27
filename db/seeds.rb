@@ -25,7 +25,7 @@ Website.create(title: 'PerformerNow',
   image: 'https://images.unsplash.com/photo-1547423753-bff7561e2956?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80')
 
 Website.create(title: 'Wedding Singer',
-  link: 'https://www.weddingsinger.live/',
+  link: 'https://weddingsinger.herokuapp.com/',
   name: 'https://www.weddingsinger.live/',
   description: 'Wedding Singer Alexandra Lansdale',
   image: 'https://images.unsplash.com/photo-1482575832494-771f74bf6857?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80')
