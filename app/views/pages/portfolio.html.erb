@@ -12,7 +12,7 @@
 <div class="all-cards-list">
   <% @websites.each do |website| %>
   <div class="whole-card">
-    <%= link_to "https://www.juntobookclub.com/", class: "link-blue-line" do %>
+    <%= link_to "#{website.link}", class: "link-blue-line" do %>
     <div class="card-trip">
       <img src="<%= website.image %>" alt="#">
       <div class="card-trip-infos">
