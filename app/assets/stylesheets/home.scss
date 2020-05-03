@@ -93,3 +93,27 @@
     }
   }
 }
+
+@media (max-width: 370px) {
+  .title {
+    color: white;
+    text-align: center;
+    font-family: 'Marmelad', sans-serif;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 7vh;
+    h1 {
+      font-size: 31px;
+      letter-spacing: 5px;
+      margin-bottom: 40px;
+  }
+    h2 {
+      font-size: 22px;
+      letter-spacing: 2px
+    }
+    p {
+      font-size: 20px;
+      letter-spacing: 1px;
+    }
+  }
+}

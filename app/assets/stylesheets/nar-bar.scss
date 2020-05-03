@@ -36,6 +36,12 @@
   float: left;
 }
 
+@media (max-width: 370px) {
+  .header a {
+    font-size: 12px;
+  }
+}
+
 // @media screen and (max-width: 500px) {
 //   .header a {
 //     float: none;
