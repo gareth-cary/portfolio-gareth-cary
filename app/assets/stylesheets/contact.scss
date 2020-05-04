@@ -1,13 +1,12 @@
 
 
 
-@media (min-width: 1026px) {
   .whole-content-contact {
     display: flex;
     justify-content: center;
     margin-top: 40px;
     position: relative;
-    top: 100px;
+    top: 120px;
 }
   .item-in-contact-form {
     width: 480px;
@@ -41,10 +40,15 @@
   transition: 0.5s;
 }
 
+
+@media (max-width: 1040px) {
+  .whole-content-contact {
+    top: 270px;
+  }
 }
 
 /* i Pad & i pad pro horizontal*/
-@media (max-width: 1025px) {
+@media (max-width: 780px) {
   .item-in-contact-form {
     width: 430px;
     box-shadow: 0 0 20px 3px white;
@@ -67,7 +71,7 @@
     display: flex;
     justify-content: center;
     position: relative;
-    top: 140px;
+    top: 166px;
 }
 
 .email-link {
@@ -85,7 +89,8 @@
 }
 
 /* iPhone 6/7/8 */
-@media (max-width: 420px) {.item-in-contact-form {
+@media (max-width: 420px) {
+  .item-in-contact-form {
     width: 300px;
     box-shadow: 0 0 20px 3px white;
     border-radius: 2px;
@@ -107,7 +112,7 @@
     display: flex;
     justify-content: center;
     position: relative;
-    top: 12vh;
+    top: 7vh;
 }
 
 .email-link {
@@ -124,5 +129,9 @@
 }}
 
 
-
+@media (max-width: 370px) {
+  .whole-content-contact {
+    top: 4vh;
+  }
+}
 
