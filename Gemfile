@@ -27,6 +27,7 @@ gem 'bootstrap', '~> 4.4.1'
 
 gem 'jquery-rails'
 gem 'mail_form'
+gem 'sendgrid-ruby'
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
