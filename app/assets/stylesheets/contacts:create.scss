@@ -1,0 +1,26 @@
+.create-page-content {
+  display: flex;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  margin-top: 16%;
+}
+
+.link-back-home {
+  color: black;
+  background: white;
+  padding: 9px 30px;
+  font-size: 26px;
+  font-weight: bolder;
+  &:hover {
+    color: white;
+    background: black;
+    text-decoration: none;
+    transition: 0.5s;
+  }
+}
+
+.create-page-info {
+  background-color: rgba(0,0,0,0.4);
+  padding: 41px
+}
