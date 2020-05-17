@@ -9,18 +9,21 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  height: 100vh;
 
   min-height: 100vh;
   margin: auto;
   font-family: 'Milonga', cursive;
-min-width: 100%;
+  min-width: 100%;
   /* Set up proportionate scaling */
   width: 100%;
 
 }
 
 
-
+.hidden {
+  visibility: hidden;
+}
 
 
 

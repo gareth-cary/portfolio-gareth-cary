@@ -8,7 +8,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
-     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" >
+     <!-- <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> -->
      <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
      <link href="https://fonts.googleapis.com/css2?family=Gabriela&family=Marmelad&family=Milonga&display=swap" rel="stylesheet">     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&family=Noto+Sans+SC:wght@500&display=swap" rel="stylesheet">
@@ -17,15 +18,30 @@
 
   <body>
 
-    <div class="header">
-      <div class="header-right">
-         <%= link_to "Home", root_path, class: "active" %>
-          <%= link_to "Contact", contact_path %>
-           <%= link_to "About", about_path %>
-           <%= link_to "Portfolio", portfolio_path %>
-            <%= link_to "CV", asset_path("CV-Gareth_George_Cary.pdf"), target: "#" %>
-      </div>
-    </div>
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-black">
+  <%= link_to "Home", root_path, class: "active", class: "link-nav-bar-home-main" %>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <%= link_to "Contact", contact_path, class: "link-nav-bar-home" %>
+      </li>
+      <li class="nav-item">
+        <%= link_to "About", about_path, class: "link-nav-bar-home" %>
+      </li>
+      <li class="nav-item">
+        <%= link_to "Portfolio", portfolio_path, class: "link-nav-bar-home" %>
+      </li>
+      <li class="nav-item">
+        <%= link_to "CV", asset_path("CV-Gareth_George_Cary.pdf"), target: "#", class: "link-nav-bar-home" %>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+
 
     <%= yield %>
 
